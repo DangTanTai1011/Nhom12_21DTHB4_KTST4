@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Phạm Phú Gia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cv-container {
+    width: 900px;
+    display: flex;
+    background: white;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.left-column {
+    width: 30%;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile h1 {
+    font-size: 22px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.profile p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-top: 20px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.section h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section p, .section ul {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0;
+    text-align: center;
+}
+
+.right-column {
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column .section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.right-column .section {
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p i {
+    margin-right: 8px;
+}
+
+.education-section {
+    border-left: 4px solid #2c3e50;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.description {
+    padding-left: 15px;
+    border-left: 3px solid #2c3e50;
+}
+
+@media (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="left-column">
+            <div class="profile">
+                <img src="Ảnh TẾT.jpg" alt="Phạm Phú Gia">
+                <h1>Phạm Phú Gia</h1>
+                <p>Web Developer</p>
+            </div>
+            <div class="section contact-info">
+                <h2>Thông tin liên hệ</h2>
+                <p>📧 pphugia95@gmail.com</p>
+                <p>📞 0775567141</p>
+                <p>📍 TP.HCM, Việt Nam</p>
+            </div>
+            <div class="section">
+                <h2>Kỹ năng</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>PHP & MySQL</li>
+                    <li>ReactJS & Node.js</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="section">
+                <h2>Giới thiệu bản thân</h2>
+                <p>Sinh viên năm 4 ngành CNTT trường Đại học Công Nghệ TP.HCM.</p>
+            </div>
+            <div class="section">
+                <h2>Kinh nghiệm làm việc</h2>
+                <p><strong>Tham gia các dự án môn học</strong></p>
+                <ul>
+                    <li>Phát triển website bằng HTML, CSS, JavaScript.</li>
+                    <li>Xây dựng hệ thống backend với C#, Java & SQL, Laragon.</li>
+                    <li>Tối ưu hiệu suất và bảo mật cho ứng dụng web.</li>
+                </ul>
+                <p><strong>Sinh Viên</strong></p>
+                <ul>
+                    <li>Làm các đồ án môn học.</li>
+                    <li>Các ngôn ngữ C#, Java.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Học vấn</h2>
+                <p>
+                    Trường Đại học Công Nghệ Tp.HCM (HUTECH)
+                    Ngành học: Công Nghệ Thông Tin
+                    Niên khóa:  2021 - 2025
+                    Chuyên ngành: Công Nghệ Phần Mềm</p>
+            </div>
+            <div class="section">
+                <h2>Dự án cá nhân</h2>
+                <ul>
+                    <li>Website bán hàng</li>
+                    <li>Website đăng ký hội thảo, sự kiện</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
